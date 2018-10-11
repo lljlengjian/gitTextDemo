@@ -18,6 +18,7 @@
     [super viewDidLoad];
     //git修改了
     self.title = @"首页";
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 
