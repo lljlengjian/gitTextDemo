@@ -27,6 +27,8 @@
     UIView *dd = [[UIView alloc]init];
     dd.frame = CGRectMake(0, 60, 200, 50);
     dd.backgroundColor = [UIColor cyanColor];
+    dd.layer.cornerRadius = 5;
+    dd.layer.masksToBounds = YES;
     [self.view addSubview:dd];
 }
 
