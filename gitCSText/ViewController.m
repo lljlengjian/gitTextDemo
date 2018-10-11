@@ -18,7 +18,10 @@
     [super viewDidLoad];
     //git修改了
     self.title = @"首页";
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor redColor];
+    UILabel *text = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 40)];
+    text.text = @"GIT";
+    [self.view addSubview:text];
 }
 
 
