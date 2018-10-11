@@ -25,6 +25,7 @@
     [self.view addSubview:text];
 
     UIView *dd = [[UIView alloc]init];
+    dd.frame = CGRectMake(0, 60, 200, 50);
     [self.view addSubview:dd];
 }
 
