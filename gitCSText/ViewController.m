@@ -32,7 +32,11 @@
     [self.view addSubview:dd];
     
     
+
+    //textOne 修改了
+
     //text修改了------------------
+
     
 }
 
