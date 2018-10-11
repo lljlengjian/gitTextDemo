@@ -26,6 +26,7 @@
 
     UIView *dd = [[UIView alloc]init];
     dd.frame = CGRectMake(0, 60, 200, 50);
+    dd.backgroundColor = [UIColor cyanColor];
     [self.view addSubview:dd];
 }
 
