@@ -30,6 +30,10 @@
     dd.layer.cornerRadius = 5;
     dd.layer.masksToBounds = YES;
     [self.view addSubview:dd];
+    
+    
+    //text修改了------------------
+    
 }
 
 
